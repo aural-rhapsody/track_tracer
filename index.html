@@ -1,0 +1,214 @@
+              <!DOCTYPE html>
+              <html lang="en">
+              <head>
+                  <meta charset="UTF-8">
+                  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                  <title>TRACK TRACER</title>
+                  <style>
+                      @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap');
+
+                      body {
+                          font-family: 'Raleway', sans-serif;
+                          background-color: #121212;
+                          color: #fff;
+                          text-align: center;
+                          margin: 0;
+                          padding: 0;
+                      }
+                      header {
+                          display: flex;
+                          justify-content: space-between;
+                          align-items: center;
+                          padding: 20px;
+                          background-color: #333; /* Gray background for the navigation bar */
+                      }
+                      .logo {
+                          font-size: 1.5em;
+                          font-weight: bold;
+                          color: #fff;
+                          padding: 10px 20px;
+                          background-color: #444; /* Different shade of gray for the logo background */
+                          border-radius: 5px;
+                      }
+                      .nav-center {
+                          flex-grow: 1;
+                          display: flex;
+                          justify-content: center;
+                          gap: 20px;
+                      }
+                      .nav-center a, .nav-right a {
+                          color: #fff;
+                          text-decoration: none;
+                          padding: 10px;
+                      }
+                      .nav-right {
+                          display: flex;
+                          align-items: center;
+                          gap: 20px;
+                      }
+                      .nav-right .login {
+                          padding: 10px 20px;
+                          background-color: #444; /* Different shade of gray for the login button background */
+                          border-radius: 5px;
+                      }
+                      .search-bar {
+                          display: flex;
+                          align-items: center;
+                          background-color: #ddd; /* Light gray background for the search bar */
+                          border-radius: 25px;
+                          padding: 5px 10px;
+                      }
+                      .search-bar img {
+                          width: 20px;
+                          height: 20px;
+                      }
+                      .search-bar input {
+                          border: none;
+                          background: none;
+                          outline: none;
+                          padding-left: 10px;
+                          color: #333;
+                      }
+                      h1 {
+                          font-size: 3em;
+                          margin: 20px 0;
+                          font-weight: 300;
+                      }
+                      video {
+                          width: 100%;
+                          height: auto;
+                          max-width: 800px;
+                          margin: 20px 0;
+                      }
+                      button {
+                          padding: 10px 20px;
+                          font-size: 1.2em;
+                          background-color: #1DB954;
+                          color: white;
+                          border: none;
+                          cursor: pointer;
+                          border-radius: 5px;
+                      }
+                      button:hover {
+                          background-color: #1ed760;
+                      }
+                      .description {
+                          max-width: 800px;
+                          margin: 20px auto;
+                          text-align: left;
+                          font-size: 1.1em;
+                          line-height: 1.6em;
+                      }
+                      footer {
+                          display: flex;
+                          justify-content: space-between;
+                          align-items: center;
+                          padding: 20px;
+                          background-color: #333; /* Gray background for the footer */
+                          color: #fff;
+                          text-align: left;
+                      }
+                      .footer-column {
+                          flex: 1;
+                          margin: 0 10px;
+                      }
+                      .footer-column h3 {
+                          text-transform: uppercase;
+                          margin-bottom: 15px;
+                          font-size: 0.9em;
+                          font-weight: bold;
+                      }
+                      .footer-column a {
+                          display: block;
+                          color: #fff;
+                          text-decoration: none;
+                          margin-bottom: 5px;
+                      }
+                      .footer-column a:hover {
+                          text-decoration: underline;
+                      }
+                      .footer-bottom {
+                          display: flex;
+                          justify-content: space-between;
+                          align-items: center;
+                          width: 100%;
+                          font-size: 0.9em;
+                          color: #ccc;
+                          padding: 10px 20px;
+                      }
+                      .social-icons {
+                          display: flex;
+                          gap: 10px;
+                      }
+                      .social-icons img {
+                          width: 24px;
+                          height: 24px;
+                      }
+                  </style>
+              </head>
+              <body>
+                  <header>
+                      <div class="logo">Track Tracer</div>
+                      <nav class="nav-center">
+                          <a href="#">Upload</a>
+                          <a href="#">Explore</a>
+                          <a href="#">How it Works</a>
+                          <a href="#">Community</a>
+                      </nav>
+                      <div class="nav-right">
+                          <div class="search-bar">
+                              <img src="search.png" alt="Search">
+                              <input type="text" placeholder="Search...">
+                          </div>
+                          <a href="#" class="login">Login</a>
+                      </div>
+                  </header>
+                  <main>
+                      <h1>Become a Connoisseur of Composition</h1>
+                      <video src="video.mp4" autoplay loop muted></video>
+                      <br>
+                      <button onclick="window.location.href='content.html'">Discover Sounds</button>
+                      <div class="description">
+                          <p>Welcome to Track Tracer, where music enthusiasts and professionals alike can explore the fascinating world of sampling. Our cutting-edge platform harnesses advanced audio analysis to identify samples and uncover the building blocks of your favorite tracks. Upload your audio snippets, and our extensive database will provide detailed insights into the samples used, their origins, and manipulation techniques.</p>
+                          <p>Immerse yourself in an auditory adventure, peeling back layers to gain a deeper appreciation for the creative process behind beloved compositions. Uncover hidden gems and the rich tapestry of influences that shape the sonic landscapes you love.</p>
+                          <p>Join our vibrant community and embark on a journey of discovery. Explore, learn, and experience music like never before – the adventure awaits!</p>
+                      </div>
+                  </main>
+                  <footer>
+                      <div class="footer-column">
+                          <h3>SOUNDS</h3>
+                          <a href="#">Uploads</a>
+                          <a href="#">History</a>
+                          <a href="#">Downloads</a>
+                      </div>
+                      <div class="footer-column">
+                          <h3>SUPPORT</h3>
+                          <a href="#">Support</a>
+                          <a href="#">Your Account</a>
+                          <a href="#">Licensing</a>
+                      </div>
+                      <div class="footer-column">
+                          <h3>ABOUT</h3>
+                          <a href="#">About us</a>
+                          <a href="#">How it Works</a>
+                          <a href="#">Community</a>
+                      </div>
+                      <div class="footer-column">
+                          <h3>LEGAL</h3>
+                          <a href="#">Terms of Service</a>
+                          <a href="#">Privacy Policy</a>
+                          <a href="#">Cookies Policy</a>
+                          <a href="#">Cookie Preference</a>
+                      </div>
+                  </footer>
+                  <div class="footer-bottom">
+                      <span>&copy; 2024 Track Tracer All Rights Reserved V1.0.0</span>
+                      <div class="social-icons">
+                          <a href="#"><img src="instagram.png" alt="Instagram"></a>
+                          <a href="#"><img src="tiktok.png" alt="TikTok"></a>
+                          <a href="#"><img src="x.png" alt="X"></a>
+                          <a href="#"><img src="youtube.png" alt="Youtube"></a>
+                      </div>
+                  </div>
+              </body>
+              </html>
